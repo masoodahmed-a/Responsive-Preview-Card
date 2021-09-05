@@ -1,0 +1,49 @@
+@media screen and (min-width: 1280px) {
+    body{
+        margin:100px;
+        
+    }
+
+    .content h3{
+         font-size: 40px;
+         text-align: justify;
+         line-height: 120%;
+    }
+    .content p{
+        text-align: justify;
+        padding-bottom: 40px;
+    }
+   /* .company{
+       display: flex;
+       flex-direction: row;
+       align-items: flex-end;
+   } */
+   .container{
+       display: flex;
+       flex-direction: row-reverse;
+   }
+   .container img{
+       width: 50%;
+   }
+   .company{
+       display: none;
+   }
+
+   .mobile{
+       display: block;
+       display: flex;  
+       justify-content: space-evenly;
+       
+   }
+
+   .tablet{
+       display: block;
+       display: flex;
+       justify-content: space-evenly;
+   }
+  
+
+
+
+
+}
